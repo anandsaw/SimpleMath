@@ -6,7 +6,8 @@ public class Divider {
 		if(b != 0) {
 			return (double) a / b;
 		} else {
-			return Interger.MAX_VALUE;
+			return Integer.MAX_VALUE;
 		}
 	}
+
 }
