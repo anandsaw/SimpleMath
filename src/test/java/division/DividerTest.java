@@ -11,4 +11,10 @@ public class DividerTest {
 		Divider divider = new Divider();
 		assertEquals(divider.divide(4, 2), 2.0);
 	}
+	
+	@Test
+	public void testDivideByZero() {
+		Divider divider = new Divider();
+		assertEquals(divider.divide(4, 0), Integer.Max_UNIT);
+	}
 }
