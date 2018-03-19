@@ -9,6 +9,6 @@ public class DividerTest {
 	@Test
 	public void testDivide() {
 		Divider divider = new Divider();
-		assertEquals(divider.divide(4, 2), 2.0, 0.0);
+		assertEquals(divider.divide(4, 2), 2.0);
 	}
 }
